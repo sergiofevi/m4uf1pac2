@@ -1,0 +1,38 @@
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(206, 218, 230);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto;
+}
+
+#customers td, #customers th {
+  border: 3px solid #232323;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #aeaeae;}
+
+#customers tr:hover {background-color: #4a4a4a;}
+
+#customers th {
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  
+}
